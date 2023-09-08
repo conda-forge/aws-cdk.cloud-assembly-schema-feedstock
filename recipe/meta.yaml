@@ -1,5 +1,5 @@
 {% set name = "aws-cdk.cloud-assembly-schema" %}
-{% set version = "2.94.0" %}
+{% set version = "2.95.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aws-cdk.cloud-assembly-schema-{{ version }}.tar.gz
-  sha256: 94489f18ab16de2e30d909e6da7b75001e78c5a0cdf5fba6f43d2c982d53b264
+  sha256: c424ab64e0d020ee4bb9ea24b1170c839c912fac87645672b7be1637d1667cdc
 
 build:
   noarch: python
@@ -21,6 +21,7 @@ requirements:
     - wheel >=0.40,<1.dev0
     - pip
   run:
+    - jsii >=1.88.0,<2.0.0
     - python >=3.7
     - python-jsii >=1.88.0,<2.0.0
     - publication >=0.0.3
