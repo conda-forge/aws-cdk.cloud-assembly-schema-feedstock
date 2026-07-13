@@ -5,11 +5,11 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-cdk.cloud-a
 
 Home: https://github.com/aws/aws-cdk
 
-Package license: Apache-2.0 AND BSD-4-Clause
+Package license: Apache-2.0 AND MIT
 
-Summary: Cloud Assembly Schema
+Summary: Schema for the protocol between CDK framework and CDK CLI
 
-Development: https://github.com/aws/aws-cdk.git
+Development: https://github.com/aws/aws-cdk-cli
 
 Current build status
 ====================
