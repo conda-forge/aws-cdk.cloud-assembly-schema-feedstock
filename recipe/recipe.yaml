@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "54.14.0"
+  version: 54.15.0
 
 package:
   name: aws-cdk.cloud-assembly-schema
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/aws-cdk.cloud-assembly-schema/aws_cdk_cloud_assembly_schema-${{ version }}.tar.gz
-  sha256: d1f3371b6141932042efc284300f7f00fd291e92ae198651d4ebe6bcc1cd3480
+  sha256: 3136dc4c6222cdecab0a2fd56983277fc93c19a3f7d7b7c990aabe6e8eddcbce
 
 build:
   number: 0
@@ -24,9 +24,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - python-jsii >=1.137.0,<2.0.0
+    - python-jsii >=1.139.0,<2.0.0
     - publication >=0.0.3
-
 tests:
   - python:
       imports:
@@ -35,7 +34,7 @@ tests:
       pip_check: true
       python_version:
         - ${{ python_min }}.*
-        - "*"
+        - '*'
 
 about:
   summary: Schema for the protocol between CDK framework and CDK CLI
