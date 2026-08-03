@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 54.15.0
+  version: "54.16.0"
 
 package:
   name: aws-cdk.cloud-assembly-schema
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/aws-cdk.cloud-assembly-schema/aws_cdk_cloud_assembly_schema-${{ version }}.tar.gz
-  sha256: 3136dc4c6222cdecab0a2fd56983277fc93c19a3f7d7b7c990aabe6e8eddcbce
+  sha256: fa311904a7c5b34c40b18f13347ab21eecf951c2826079f6b4186a85e70e4d9f
 
 build:
   number: 0
